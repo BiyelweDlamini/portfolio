@@ -1,23 +1,35 @@
 import heroImg from '../assets/hero.png'
-import javascriptLogo from '../assets/javascript.svg'
-import viteLogo from '../assets/vite.svg'
 
 export default function Hero() {
   return (
-    <section id="home" style={{ padding: '32px 0' }}>
-      <div className="hero">
-        <img src={heroImg} className="base" width="170" height="179" alt="" />
-        <img src={javascriptLogo} className="framework" alt="JavaScript logo" />
-        <img src={viteLogo} className="vite" alt="Vite logo" />
-      </div>
+    <section id="home" className="heroPage">
+      <div className="heroBg" aria-hidden="true" />
 
-      <div>
-        <h1>Get started</h1>
-        <p>
-          Edit <code>src/components</code> and save to test <code>HMR</code>
-        </p>
+      <div className="heroInner">
+        <div className="heroLeft">
+          <img className="heroAvatar" src={heroImg} alt="Profile" />
+          <div className="heroLeftPlaceholder">Replace with your image</div>
+        </div>
+
+        <div className="heroRight">
+          <h1>Your Name</h1>
+          <p>
+            Short introduction goes here. Replace this placeholder text with your
+            headline and what you do.
+          </p>
+
+          <div className="heroRightActions">
+            <a className="heroCta" href="#contact">
+              Contact me
+            </a>
+            <a className="heroCtaSecondary" href="#projects">
+              View projects
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   )
 }
+
 
