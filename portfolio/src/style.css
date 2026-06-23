@@ -169,6 +169,29 @@ code {
   box-sizing: border-box;
 }
 
+/* Navbar responsiveness tweaks */
+@media (max-width: 480px) {
+  header {
+    /* keep sticky header visually consistent on small screens */
+    border-bottom-width: 1px;
+  }
+
+  header nav {
+    padding: 10px 10px;
+    gap: 8px;
+  }
+
+  header nav a {
+    font-size: 14px;
+    padding: 5px 8px;
+    border-radius: 8px;
+    white-space: nowrap;
+  }
+}
+
+
+
+
 #center {
   display: flex;
   flex-direction: column;

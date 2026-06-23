@@ -40,6 +40,9 @@ const linkStyle = {
   padding: '6px 10px',
   borderRadius: 8,
   background: 'var(--social-bg)',
-  border: '1px solid rgba(0,0,0,0)',
-  transition: 'box-shadow 0.3s, border-color 0.3s',
+  border: 'none',
+  boxShadow: 'none',
+  transition: 'box-shadow 0.25s, transform 0.15s, background 0.25s',
 }
+
+

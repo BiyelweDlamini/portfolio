@@ -6,4 +6,6 @@
 - [ ] Create `src/App.jsx` and `src/App.css` (port styles from `src/style.css`)
 - [ ] Create `src/components/*` (Navbar, Hero, About, Experience, Projects, Skills, Certifications, Contact)
 - [ ] Wire components in `App.jsx` with section ids for navigation
-- [ ] Run `npm install` and `npm run dev` to verify
+- [x] Run `npm install` and `npm run dev` to verify
+
+
