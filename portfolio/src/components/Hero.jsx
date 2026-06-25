@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="heroInner">
         <div className="heroLeft">
           <img className="heroAvatar" src={biyelweImg} alt="Profile" />
-          <div className="heroLeftPlaceholder">Replace with your image</div>
+         
         </div>
 
         <div className="heroRight">

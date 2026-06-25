@@ -10,16 +10,26 @@ export default function Experience() {
         </p>
 
         <h4 style={{ margin: '12px 0 8px' }}>Highlight:</h4>
-        <ul style={{ margin: 0, paddingLeft: 20, lineHeight: 1.6 }}>
-          <li>SQL reporting</li>
-          <li>Python automation</li>
-          <li>Linux Cron Jobs</li>
-          <li>AWS IAM</li>
-          <li>API integrations</li>
-          <li>Microsoft 365 administration</li>
-          <li>User Roles Management</li>
-        </ul>
+
+        <div className="row g-2 experience-cards">
+          {[
+            'SQL reporting',
+            'Python automation',
+            'Linux Cron Jobs',
+            'AWS IAM',
+            'API integrations',
+            'Microsoft 365 administration',
+            'User Roles Management',
+          ].map((label) => (
+            <div key={label} className="col-12 col-sm-6 col-lg-4">
+              <div className="experience-card h-100">
+                <div className="experience-card-inner">{label}</div>
+              </div>
+            </div>
+          ))}
+        </div>
       </article>
+
 
       <article style={{ marginTop: 22 }}>
         <h3 style={{ margin: '0 0 6px' }}>Slomoes Corporation</h3>
@@ -28,13 +38,15 @@ export default function Experience() {
         </p>
 
         <h4 style={{ margin: '12px 0 8px' }}>Highlight:</h4>
-        <ul style={{ margin: 0, paddingLeft: 20, lineHeight: 1.6 }}>
-          <li>Web development</li>
-          <li>Testing</li>
-          <li>Documentation</li>
-          <li>Requirements gathering</li>
-          
-        </ul>
+        <div className="row g-2 experience-cards">
+          {['Web development', 'Testing', 'Documentation', 'Requirements gathering'].map((label) => (
+            <div key={label} className="col-12 col-sm-6 col-lg-4">
+              <div className="experience-card h-100">
+                <div className="experience-card-inner">{label}</div>
+              </div>
+            </div>
+          ))}
+        </div>
       </article>
 
       <article style={{ marginTop: 22 }}>
@@ -44,11 +56,15 @@ export default function Experience() {
         </p>
 
         <h4 style={{ margin: '12px 0 8px' }}>Highlight:</h4>
-        <ul style={{ margin: 0, paddingLeft: 20, lineHeight: 1.6 }}>
-          <li>Accuracy</li>
-          <li>Excel</li>
-          <li>Data verification</li>
-        </ul>
+        <div className="row g-2 experience-cards">
+          {['Accuracy', 'Excel', 'Data verification'].map((label) => (
+            <div key={label} className="col-12 col-sm-6 col-lg-4">
+              <div className="experience-card h-100">
+                <div className="experience-card-inner">{label}</div>
+              </div>
+            </div>
+          ))}
+        </div>
       </article>
     </section>
   )
