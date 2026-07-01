@@ -272,7 +272,21 @@ code {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  gap: 10px;
   color: var(--text-h);
+  font-weight: 600;
+}
+
+.experience-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: rgba(170, 59, 255, 0.12);
+  font-size: 18px;
+  flex-shrink: 0;
 }
 
 .experience-card:hover {

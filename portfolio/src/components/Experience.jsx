@@ -1,4 +1,27 @@
 export default function Experience() {
+  const eMaliHighlights = [
+    { label: 'SQL reporting', icon: '📊' },
+    { label: 'Python automation', icon: '🐍' },
+    { label: 'Linux Cron Jobs', icon: '⏰' },
+    { label: 'AWS IAM', icon: '☁️' },
+    { label: 'API integrations', icon: '🔌' },
+    { label: 'Microsoft 365 administration', icon: '🧑‍💼' },
+    { label: 'User Roles Management', icon: '👥' },
+  ];
+
+  const slomoesHighlights = [
+    { label: 'Web development', icon: '🌐' },
+    { label: 'Testing', icon: '🧪' },
+    { label: 'Documentation', icon: '📄' },
+    { label: 'Requirements gathering', icon: '📝' },
+  ];
+
+  const examsHighlights = [
+    { label: 'Accuracy', icon: '✅' },
+    { label: 'Excel', icon: '📗' },
+    { label: 'Data verification', icon: '🔍' },
+  ];
+
   return (
     <section id="experience" style={{ padding: '32px' }}>
       <h2>Experience</h2>
@@ -12,18 +35,13 @@ export default function Experience() {
         <h4 style={{ margin: '12px 0 8px' }}>Highlight:</h4>
 
         <div className="row g-2 experience-cards">
-          {[
-            'SQL reporting',
-            'Python automation',
-            'Linux Cron Jobs',
-            'AWS IAM',
-            'API integrations',
-            'Microsoft 365 administration',
-            'User Roles Management',
-          ].map((label) => (
+          {eMaliHighlights.map(({ label, icon }) => (
             <div key={label} className="col-12 col-sm-6 col-lg-4">
               <div className="experience-card h-100">
-                <div className="experience-card-inner">{label}</div>
+                <div className="experience-card-inner">
+                  <span className="experience-card-icon" aria-hidden="true">{icon}</span>
+                  <span>{label}</span>
+                </div>
               </div>
             </div>
           ))}
@@ -39,10 +57,13 @@ export default function Experience() {
 
         <h4 style={{ margin: '12px 0 8px' }}>Highlight:</h4>
         <div className="row g-2 experience-cards">
-          {['Web development', 'Testing', 'Documentation', 'Requirements gathering'].map((label) => (
+          {slomoesHighlights.map(({ label, icon }) => (
             <div key={label} className="col-12 col-sm-6 col-lg-4">
               <div className="experience-card h-100">
-                <div className="experience-card-inner">{label}</div>
+                <div className="experience-card-inner">
+                  <span className="experience-card-icon" aria-hidden="true">{icon}</span>
+                  <span>{label}</span>
+                </div>
               </div>
             </div>
           ))}
@@ -57,10 +78,13 @@ export default function Experience() {
 
         <h4 style={{ margin: '12px 0 8px' }}>Highlight:</h4>
         <div className="row g-2 experience-cards">
-          {['Accuracy', 'Excel', 'Data verification'].map((label) => (
+          {examsHighlights.map(({ label, icon }) => (
             <div key={label} className="col-12 col-sm-6 col-lg-4">
               <div className="experience-card h-100">
-                <div className="experience-card-inner">{label}</div>
+                <div className="experience-card-inner">
+                  <span className="experience-card-icon" aria-hidden="true">{icon}</span>
+                  <span>{label}</span>
+                </div>
               </div>
             </div>
           ))}
