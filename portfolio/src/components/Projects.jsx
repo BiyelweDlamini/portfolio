@@ -1,29 +1,22 @@
 export default function Projects() {
   const projects = [
     {
-      title: 'SQL Reporting Dashboard',
-      desc: 'Automated KPI reporting and scheduled exports.',
+      title: 'Using Tensorflow and CNNs to Detect forged handwritten signatures',
+      desc: 'A deep learning model to identify forged signatures using convolutional neural networks. I implemented a CNN architecture, trained it on a dataset of genuine and forged signatures, and achieved a model that could fairly distinguish between authentic and forged signatures. This project demonstrates my skills in machine learning, image processing, and model evaluation. It was my final year project for my BSc in Information Technology at the University of Eswatini.',
     },
     {
-      title: 'Python Automation Scripts',
-      desc: 'Process automation to reduce manual admin effort.',
+      title: 'Web Development',
+      desc: 'Developments of websites using HTML, CSS, and JavaScript. I have built responsive and interactive web pages, ensuring cross-browser compatibility and optimal user experience.',
     },
     {
-      title: 'Linux Cron Job Workflows',
-      desc: 'Reliable scheduled tasks for recurring operations.',
+      title: 'Flappy Bird Game Clone',
+      desc: 'A simple implementation of the popular Flappy Bird game using Unity and C#. I recreated the core mechanics of the game, including player controls, obstacle generation, and scoring system. This project showcases my understanding of game development principles and Unity engine.',
     },
     {
       title: 'API Integrations',
       desc: 'Integrate services for streamlined workflows.',
     },
-    {
-      title: 'Microsoft 365 Administration',
-      desc: 'User management, access policies, and productivity.',
-    },
-    {
-      title: 'AWS IAM Access Control',
-      desc: 'Fine-grained permissions and role-based access.',
-    },
+
   ]
 
   return (
