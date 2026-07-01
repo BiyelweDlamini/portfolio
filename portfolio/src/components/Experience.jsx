@@ -28,7 +28,7 @@ export default function Experience() {
 
       <article>
         <h3 style={{ margin: '0 0 6px' }}>E-Mali Ltd</h3>
-        <p style={{ margin: '0 0 4px', color: 'var(--text-h)' }}>
+        <p style={{ margin: '0 0 4px'}}>
           IT Administrator | July 2025 – Present
         </p>
 
@@ -51,7 +51,7 @@ export default function Experience() {
 
       <article style={{ marginTop: 22 }}>
         <h3 style={{ margin: '0 0 6px' }}>Slomoes Corporation</h3>
-        <p style={{ margin: '0 0 4px', color: 'var(--text-h)' }}>
+        <p style={{ margin: '0 0 4px'}}>
           Software Developer | February 2025 – May 2025
         </p>
 
@@ -72,7 +72,7 @@ export default function Experience() {
 
       <article style={{ marginTop: 22 }}>
         <h3 style={{ margin: '0 0 6px' }}>Examinations Counsil of Eswatini</h3>
-         <p style={{ margin: '0 0 4px', color: 'var(--text-h)' }}>
+         <p style={{ margin: '0 0 4px' }}>
           Data Capturer | November 2024 – December 2024
         </p>
 
