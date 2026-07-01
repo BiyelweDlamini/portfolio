@@ -1,11 +1,15 @@
 export default function Certifications() {
   const certs = [
-    'Microsoft 365 Administration',
-    'AWS IAM & Access Control',
-    'Linux Scheduling & Automation',
-    'API Integration Fundamentals',
-    'Data Verification & Excel',
-    'Requirements & Documentation',
+    'IBM Full Stack Software Developer Professional Certificate - IBM',
+    'Programming in HTML5, with JavaScript and CSS - Softech',
+    'IOT (Internet of things) wireless & cloud computing emerging technologies - Coursera',
+    'Computer hardware basics - Cisco',
+    'Python Essentials 1 - Cisco',
+    'Python Essentials 2 - Cisco',
+    'Data Analytics essentials - Cisco',
+    'Introduction to Data Science – Cisco',
+    'IT Customer Support Basics - Cisco',
+    'Intro to Machine Learning - Kaggle Learn',
   ]
 
   return (
